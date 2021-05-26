@@ -3,4 +3,5 @@ export function Bird({ id, flight, name, age }) {
   this.flight = flight;
   this.name = name;
   this.age = age;
+  this.className = "Bird";
 }

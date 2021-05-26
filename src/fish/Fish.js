@@ -3,4 +3,5 @@ export function Fish({ id, location, name, age }) {
   this.location = location;
   this.name = name;
   this.age = age;
+  this.className = "Fish";
 }
