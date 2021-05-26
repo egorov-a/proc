@@ -66,3 +66,7 @@ export function buildObjectFromStr(obj) {
 
   return str;
 }
+
+export function numberLetters(name) {
+  return name.length;
+}
