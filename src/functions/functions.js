@@ -10,6 +10,7 @@ export function switchedObject(array, container) {
       id: element[0],
       value: element[1],
       name: element[2],
+      age: element[3],
     };
 
     switch (params.id) {
@@ -18,6 +19,7 @@ export function switchedObject(array, container) {
           id: params.id,
           location: params.value,
           name: params.name,
+          age: params.age,
         };
         fish = new Fish(fishParams);
         container.arr.push(fish);
@@ -27,6 +29,7 @@ export function switchedObject(array, container) {
           id: params.id,
           flight: params.value,
           name: params.name,
+          age: params.age,
         };
         bird = new Bird(birdParams);
         container.arr.push(bird);
